@@ -1,4 +1,3 @@
-// import { USER_ACTION_TYPES } from './user.types';
 import { createSlice } from "@reduxjs/toolkit";
 
 const INITIAL_STATE = {
@@ -7,7 +6,7 @@ const INITIAL_STATE = {
 
 export const userSlice = createSlice({
   name: 'user',
-  initialState: INITIAL_STATE,
+  initialState:INITIAL_STATE,
   reducers: {
     setCurrentUser(state, action) {
       state.currentUser = action.payload
