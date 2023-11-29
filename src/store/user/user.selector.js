@@ -1,4 +1,2 @@
-export const selectCurrentUser = (state) => {
-    console.log(state)
-    return state.user.currentUser
-};
+export const selectCurrentUser = (state) => state.user.currentUser
+
